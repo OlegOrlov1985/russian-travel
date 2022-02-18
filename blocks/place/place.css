@@ -1,6 +1,6 @@
 .place {
   max-width: 984px;
-  min-height: 660px;
+  height: 660px;
   margin: 0;
   padding-top: 80px;
   column-gap: 40px;
@@ -22,15 +22,15 @@
 @media screen and (max-width: 1023px) {
   .place {
     max-width: 928px;
-
   }
 }
 
 @media screen and (max-width: 767px) {
   .place {
     max-width: 720px;
-    min-height: 581px;
+    height: 581px;
     padding-top: 73px;
+    padding-left: 24px;
   }
   .place:first-child {
     padding-top: 88px;
@@ -41,7 +41,7 @@
   .place {
     max-width: 320px;
     min-height: 1042px;
-    padding-top: 50px;
+    padding-top: 100px;
     grid-template-areas:
     "title"
     "website"
@@ -50,6 +50,6 @@
 
   }
   .place:first-child {
-    padding-top: 64px;
+    padding-top: 264px;
   }
 }

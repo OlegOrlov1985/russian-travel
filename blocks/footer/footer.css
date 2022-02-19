@@ -1,7 +1,7 @@
 .footer {
   display: grid;
   grid-template-columns: auto auto;
-  width: 1183px;
+  max-width: 1183px;
   align-self: center;
   margin: 0;
   justify-content: space-between;

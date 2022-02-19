@@ -1,6 +1,5 @@
 .place__website {
   max-width: 456px;
-  height: 46px;
   grid-area: website;
   display: flex;
   flex-direction: column;
@@ -25,8 +24,6 @@
 @media screen and (max-width: 319px) {
   .place__website {
     max-width: 288px;
-    padding-top: 32px;
-    padding-bottom: 32px;
     padding-left: 16px;
   }
 }

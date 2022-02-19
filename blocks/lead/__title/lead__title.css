@@ -13,8 +13,7 @@
 
 @media screen and (max-width: 1023px) {
   .lead__title {
-   padding: 0px 132px 32px;
-
+   padding: 0px 104px 32px;
   }
 }
 
@@ -30,6 +29,5 @@
     font-size: 40px;
     line-height: 44px;
     max-width: 288px;
-    height: 88px;
   }
 }

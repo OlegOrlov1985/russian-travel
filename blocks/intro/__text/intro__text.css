@@ -7,7 +7,6 @@
   color: #FFFFFF;
   text-align: left;
   max-width: 690px;
-  height: 208px;
   padding-top: 40px;
   padding-bottom: 33px;
   margin: 0;
@@ -16,14 +15,12 @@
 @media screen and (max-width: 767px) {
   .intro__text {
     max-width: 720px;
-    min-height: 208px;
   }
 }
 
 @media screen and (max-width: 319px) {
   .intro__text {
     max-width: 288px;
-    min-height: 520px;
     padding-bottom: 34px;
   }
 }

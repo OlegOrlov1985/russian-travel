@@ -29,6 +29,5 @@ padding: 0;
 @media screen and (max-width: 319px) {
   .intro__list {
    max-width: 288px;
-   padding: 34px 0 64px;
   }
 }

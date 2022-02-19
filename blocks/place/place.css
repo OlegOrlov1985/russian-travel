@@ -8,7 +8,6 @@
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
   grid-auto-flow: column;
-  justify-content: space-around;
   grid-template-areas:
   "title website"
   "image paragraph"

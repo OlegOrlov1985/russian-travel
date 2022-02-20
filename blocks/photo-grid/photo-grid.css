@@ -1,8 +1,8 @@
 .photo-grid {
   max-width: 1184px;
-  padding: 0 48px 0;
+  padding: 0;
   align-content: center;
-  margin: 0;
+  margin: 0 auto 0;
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(4, 1fr);
@@ -22,7 +22,7 @@
     max-width: 720px;
     gap: 16px;
     grid-template-columns: 352px 352px;
-    padding: 0 24px 0;
+    margin: 0 24px 0;
   }
 }
 
@@ -31,6 +31,6 @@
     max-width: 288px;
     gap: 12px;
     grid-template-columns: 288px;
-    padding: 0 16px 0;
+    margin: 0 16px 0;
   }
 }

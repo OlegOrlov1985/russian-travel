@@ -1,11 +1,10 @@
 .footer {
   display: grid;
   grid-template-columns: auto auto;
-  max-width: 1183px;
+  max-width: 1184px;
   align-self: center;
-  margin: 0;
   justify-content: space-between;
-  padding: 0 48px 24px;
+  margin: 0 auto 24px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -17,7 +16,7 @@
 @media screen and (max-width: 767px) {
   .footer {
     max-width: 720px;
-    padding: 0 24px 24px;
+    margin: 0 auto 24px;
   }
 }
 
@@ -25,10 +24,8 @@
   .footer {
     max-width: 186px;
     grid-template-columns: 100px;
-    padding-left: 16px;
-    padding-right: 0;
+    margin-left: 16px;
+    margin-right: 0;
     justify-items: start;
-    margin: 0;
-
   }
 }
